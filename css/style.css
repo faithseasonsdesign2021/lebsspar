@@ -110,7 +110,14 @@ a{
 
 /*landing page section content start here*/
 .landing-page-content-section{
-    padding-top:70px;
+    padding-top:50px;
+}
+
+.content-sub-cation{
+    font-size:46pt
+}
+.content-description-caption{
+    font-size:20pt;
 }
 
 /*landing page section content ended here*/
@@ -234,6 +241,16 @@ a{
     .working-hours-wrapper{
         text-align:center;
     }
+    .landing-page-content-section{
+        padding-top:10vh;
+    }
+    .content-description-caption{
+        font-size:12pt;
+    }
+    .content-sub-cation{
+        font-size:36pt;
+    }
+    
 }
 
 @media screen and (min-width:768px){
@@ -245,6 +262,7 @@ a{
    .about-img{
        height:300px;
    }
+
 }
 
 
