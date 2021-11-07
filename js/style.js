@@ -1,7 +1,15 @@
+
+
 function navigationButton(){
     $('.navigation-button').click(function(){
         $(".navigation-list-outer-wrapper").slideToggle(400);
     });
+}
+
+function hideMenu(){
+    $(".about-link").click(function(){
+        $(".navigation-list-outer-wrapper").hide();
+    })
 }
 
 function styling(){
@@ -16,6 +24,20 @@ function styling(){
         section[0].style.height ="110vh";
         //welcome_caption[0].style.fontSize = "14pt";
     }
+
+    let subcaption = document.getElementsByClassName("content-sub-caption");
+    let description = document.getElementsByClassName("content-description-caption")
+    let contentSection = document.getElementsByClassName("landing-page-content-section");
+
+    if(window_width>320 && window_width<=768 && window_height == 838){
+        contentSection[0].style.marginTop = "8vh";
+    }
+
+    let landingPageSection = document.getElementsByClassName("landing-section");
+    if(window_width>1860){
+        contentSection[0].style.marginTop = "90px"
+        //alert(landingPageSection[0].offsetHeight);
+    }
    
 }
 
@@ -24,20 +46,15 @@ function cardButtons(){
     $(".btn-1").click(function(){
         $(".waxing-section-one").show();
         $(".waxing-section-two").hide();
-        $(".waxing-section-three").hide();
+      
     });
 
     $(".btn-2").click(function(){
         $(".waxing-section-one").hide();
         $(".waxing-section-two").show();
-        $(".waxing-section-three").hide();
     });
 
-    $(".btn-3").click(function(){
-        $(".waxing-section-one").hide();
-        $(".waxing-section-two").hide();
-        $(".waxing-section-three").show();
-    });
+   
 
     //masssage buttons
 
@@ -150,11 +167,19 @@ function cardButtons(){
     $(".massage-gallery-btn").click(function(){
         $(".massage-gallery-section").show();
         $(".nails-gallery-section").hide();
+        $(".outdoor-gallery-section").hide();
     })
 
     $(".nails-gallery-btn").click(function(){
         $(".massage-gallery-section").hide();
         $(".nails-gallery-section").show();
+        $(".outdoor-gallery-section").hide();
+    })
+
+    $(".outdoor-gallery-btn").click(function(){
+        $(".outdoor-gallery-section").show();
+        $(".massage-gallery-section").hide();
+        $(".nails-gallery-section").hide();
     })
 
 }

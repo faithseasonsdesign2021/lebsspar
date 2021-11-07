@@ -10,17 +10,17 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
-    <title>Welcome To Leb Spar</title>
+    <title>Welcome To</title>
   </head>
   <body>
     
 
     <!--coding for the landing page start here-->
     <div class="bg-image landing-section" style="position:relative">
-        <div class="mask container-fluid">
+        <div class="mask container-fluid ">
             <!--navigation for larger screens start here-->
             <div class="container-fluid d-none d-sm-none d-md-block">
-                <div class="container lg-navigation-wrapper" style="margin-top:20px">
+                <div class="container lg-navigation-wrapper" style="margin-top:50px">
                     <div class="logo-wrapper">
                         <img src="images/logo2.jpg" alt="" class="img-fluid mx-auto logo">
                     </div>
@@ -29,16 +29,16 @@
                             <a href="#" class="text-white">Home</a>
                         </li>
                         <li class="d-inline-block w3-item-bar w3-button h5">
-                            <a href="#" class="text-white">About</a>
+                            <a href="#aboutSection" class="text-white">About</a>
                         </li>
                         <li class="d-inline-block w3-item-bar w3-button h5">
-                            <a href="#" class="text-white">Services</a>
+                            <a href="#servicesSection" class="text-white">Services</a>
                         </li>
                         <li class="d-inline-block w3-item-bar w3-button h5">
-                            <a href="#" class="text-white">Portolio</a>
+                            <a href="#gallerySection" class="text-white">Portolio</a>
                         </li>
                         <li class="d-inline-block w3-item-bar w3-button h5">
-                            <a href="#" class="text-white">Contact</a>
+                            <a href="#footerSection" class="text-white">Contact</a>
                         </li>
                     </div>
                 </div>
@@ -60,12 +60,6 @@
             <!--navigation for smaller screen ended here-->
             <!---coding for the content of the landing section start here-->
             <div class="container landing-page-content-section">
-                <div class="content-title">
-                    <h3 class="text-danger w3-animate-left content-caption">
-                        Mobile Beauty Spa in Pretoria
-                    </h3>
-                </div>
-                <br>
                 <div class="content sub-title">
                     <h1 class="text-white w3-animate-right content-sub-cation">
                         Lebs Health & Beauty Spa
@@ -101,7 +95,7 @@
     <!--coding for the about section start here-->
 
 
-    <div class="container-fluid about-section-outer-wrapper w3-pale-red" style="position: relative;">
+    <div class="container-fluid about-section-outer-wrapper w3-pale-red" id="aboutSection" style="position: relative;">
         <div class="container">
             <div class="about-section-wrapper">
                 <div class="about-img-wrapper">
@@ -113,7 +107,7 @@
                             Welcome To
                         </h5>
                         <p class="h3 font-weight-bold text-danger about-subcaption">
-                            My Beauty Spa Studio
+                            Our Beauty Spa Studio
                         </p>
                         <p>
                             Having been in the Health and Beauty Business for over 3 years our Company is the 
@@ -133,7 +127,7 @@
     <!--coding for the about section ended here-->
 
     <!---coding for the services section start here-->
-    <div class="container service-wrapper">
+    <div class="container service-wrapper" id="servicesSection">
         <p class="h5 text-center">
             what we do
         </p>
@@ -205,7 +199,7 @@
                 <div class="card-body">
                     <p class="card-text h2">Mobile Spa</p>
                     <p>
-                        With the covid-19 and regulations in place we bring you our spa services at the comport 
+                        With the covid-19 and regulations in place we bring you our spa services at the comfort 
                         of you own home 
                     </p>
                 </div>
@@ -254,7 +248,7 @@
     <!--coding for the pricing list start here-->
     <div class="container pricing-wrapper">
         <p class="h5 text-center">
-            how much do we charge for our services 
+            how much do we charge for our services? 
         </p>
         <p class="h1 text-center pricing-caption">
             Our Pricing
@@ -269,7 +263,7 @@
                                 Brow Wax : R60
                             </li>
                             <li>
-                                Chine Wax : R60
+                                Chin Wax : R60
                             </li>
                             <li>
                                 Lip Wax : R60
@@ -282,6 +276,15 @@
                             </li>
                             <li>
                                 Hollywood : R250
+                            </li>
+                            <li>
+                                Full Face : R220
+                            </li>
+                            <li>
+                                Sideburns : R100
+                            </li>
+                            <li>
+                                Wax three Quater : R210
                             </li>
                         </ul>
                     </div>
@@ -305,19 +308,6 @@
                             <li>
                                 Nose/ear : R60
                             </li>
-                        </ul>
-                    </div>
-                    <div class="waxing-section-three w3-animate-right" style="display:none">
-                        <ul>
-                            <li>
-                                Full Face : R220
-                            </li>
-                            <li>
-                                Sideburns : R100
-                            </li>
-                            <li>
-                                Wax three Quater : R210
-                            </li>
                             <li>
                                 Chest Wax : R200
                             </li>
@@ -332,9 +322,6 @@
                         </p>
                         <p class="btn btn-sm bg-danger text-white btn-2">
                             2
-                        </p>
-                        <p class="btn btn-sm bg-danger text-white btn-3">
-                            3
                         </p>
                     </div>
                 </div>
@@ -353,7 +340,7 @@
                         </li>
                     </ul>
                     <p class="h1 text-danger">
-                        Peel
+                        Facial Peel
                     </p>
                     <ul>
                         <li>
@@ -361,6 +348,17 @@
                         </li>
                         <li>
                             60 mins Peel : R500
+                        </li>
+                    </ul>
+                    <p class="h1 text-danger">
+                        Add-on
+                    </p>
+                    <ul>
+                        <li>
+                            BT (30 mins) : R50
+                        </li>
+                        <li>
+                            High Frequency : R50
                         </li>
                     </ul>
                 </div>
@@ -458,17 +456,6 @@
                             4
                         </p>
                     </div>
-                    <p class="h1 text-danger">
-                        Add-on
-                    </p>
-                    <ul>
-                        <li>
-                            BT (30 mins) : R50
-                        </li>
-                        <li>
-                            High Frequency : R50
-                        </li>
-                    </ul>
                 </div>
             </div>
             <div class="card pricing-card">
@@ -585,7 +572,7 @@
                         </p>                
                         <ul>
                             <li>
-                                Dermalogical facial : R380
+                                Classic facial : R380
                             </li>
                             <li>
                                 Clearing facial : R350
@@ -633,7 +620,7 @@
                                 Detox you knots massage
                             </li>
                             <li>
-                                facial (Dermalogical/clearing)
+                                classic facial
                             </li>
                         </ul>
                     </div> 
@@ -659,9 +646,6 @@
                     </div>
               </div>
             </div>
-            <span class="text-danger">
-                (R100 EXTRA FEE will be charged for trips 30km away from Midrand & R150 for trips 50km away from Midrand)
-            </span>
         </div>
     </div>
     <!--coding for the pricing list ended here-->
@@ -671,19 +655,19 @@
         <div class="container">
             <p class="h1 text-white">Working Hours</p>
             <p class="text-white h4">
-                Week Days
+                Monda-Friday
             </p>
             <ul>
                 <li class="text-white d-block">
-                    09h00 AM - 17H00 PM 
+                    09h00 AM - 18H00 PM 
                 </li>
             </ul>
             <p class="text-white h4">
-                Weekends Days
+                Saturday
             </p>
             <ul>
                 <li class="text-white d-block">
-                    09h00 AM - 14H30 PM 
+                    09h00 AM - 14H00 PM 
                 </li>
             </ul>
             <p class="text-white h4">
@@ -691,7 +675,7 @@
             </p>
             <ul>
                 <li class="text-white d-block">
-                    09h00 AM - 14H30 PM 
+                    09h00 AM - 14H00 PM 
                 </li>
             </ul>
         </div>
@@ -699,7 +683,7 @@
     <!---coding for the working hours ended here-->
 
     <!---coding for the gallery section start here-->
-    <div class="container-fluid gallery-section-wrapper">
+    <div class="container-fluid gallery-section-wrapper" id="gallerySection">
         <div class="container">
             <p class="h1 gallery-caption">
                 Our Gallery
@@ -710,6 +694,9 @@
                 </p>
                 <p class="btn btn-sm bg-danger text-white nails-gallery-btn">
                     Nails
+                </p>
+                <p class="btn btn-sm bg-danger text-white outdoor-gallery-btn">
+                    Outdoor Feel
                 </p>
             </div>
             <div class="row" style="margin-top:10px">
@@ -751,18 +738,40 @@
                         </div>
                     </div>
                 </div>
+                <div class="outdoor-gallery-section col-12.col-sm-12.col-md-8" style="display: none;">
+                    <div class="row">
+                        <div class="col-6 col-sm-6 col-md-4 w3-animate-right">
+                            <img src="images/p1.jpg" alt="" class="img-fluid mx-auto">
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4 w3-animate-right">
+                            <img src="images/p2.jpg" alt="" class="img-fluid mx-auto"><br><br>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4 w3-animate-right">
+                            <img src="images/p3.jpg" alt="" class="img-fluid mx-auto">
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4 w3-animate-right">
+                            <img src="images/place1.jpg" alt="" class="img-fluid mx-auto">
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4 w3-animate-right">
+                            <img src="images/place2.jpg" alt="" class="img-fluid mx-auto">
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4 w3-animate-right">
+                            <img src="images/place4.jpg" alt="" class="img-fluid mx-auto">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!--coding for the gallery section ended here-->
 
     <!--coding for the footer start here-->
-    <div class="container-fluid footer-wrapper">
+    <div class="container-fluid footer-wrapper" id="footerSection">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-4">
                     <p class="h2 footer-caption text-danger">
-                        Lebs Beauty Spa
+                        Lebs Health and Beauty Spa
                     </p><br>
                     <p class="footer-sub-caption text-white">
                         Welcome to Lebs Beauty Spa solution
@@ -836,19 +845,21 @@
     <div class="d-md-none navigation-list-outer-wrapper w3-black">
         <div class="container navigation-list-wrapper w3-black">
             <li class="d-block w3-item-bar h5">
-                <a href="#" class="text-white">Home</a>
+                <a href="#index" class="text-white">Home</a>
+            </li>
+            <li class="d-block w3-item-bar h5 about-link">
+                <a href="#aboutSection" class="text-white" onclick="hideMenu()">
+                    About
+                </a>
             </li>
             <li class="d-block w3-item-bar h5">
-                <a href="#" class="text-white">About</a>
+                <a href="#servicesSection" class="text-white">Services</a>
             </li>
             <li class="d-block w3-item-bar h5">
-                <a href="#" class="text-white">Services</a>
+                <a href="#gallerySection" class="text-white">Portolio</a>
             </li>
             <li class="d-block w3-item-bar h5">
-                <a href="#" class="text-white">Portolio</a>
-            </li>
-            <li class="d-block w3-item-bar h5">
-                <a href="#" class="text-white">Contact</a>
+                <a href="#footerSection" class="text-white">Contact</a>
             </li>
         </div>
     </div>
